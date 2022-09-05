@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.inputText{
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+}
+
+.inputActive{
+    height: 20px;
+    align-self: center;
+ }
+
+.raw{
+    display:block;
+}
+
+.button{
+    margin: 5px auto 10px auto;
+}
+
+.result{
+    width: 100%;
+}
+
+.dashed{
+    border-radius: 7px;
+    border-color: yellow;
+    border-style: dashed;
+    background-color: lightblue;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+#select1{
+    width: 50px;
+    margin: 0 auto;
+}
