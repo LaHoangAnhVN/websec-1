@@ -1,0 +1,16 @@
+.input{
+    margin: 12px;
+    color: white;
+    background-color: red;
+}
+
+.output{
+    margin: 12px;
+    color: red;
+    background-color: blue;
+}
+
+.button{
+    margin: auto;
+    display: block;
+}
