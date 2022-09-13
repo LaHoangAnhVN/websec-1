@@ -4,18 +4,19 @@
         <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
-        <label for="First">First number</label>
-        <input type="text" id="First" class="input"><br>
-        <br><label for="Operation">Operation</label>
-        <select id="Operation" class="input">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
-        </select><br>
-        <br><label for="Second">Second number</label>
-        <input type="text" id="Second" class="input">
-        <button id="Calculate" class="button" onClick="buttonClickHandler();">Calculate</button>
-        <textarea id="Result" class="output"></textarea>
+        <div class="background">
+            <div>
+                <input type="text" id="First" class="size input">
+                <select id="Operation" class="input">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="text" id="Second" class="size input">
+            </div>
+            <button id="Button" class="button" onClick="buttonClickHandler();">Calculator</button>
+            <textarea id="Result" class="output"></textarea>
+        </div>     
     </body>
 </html>
