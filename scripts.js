@@ -21,7 +21,7 @@ function buttonClickHandler(){
             result = firstNumber * secondNumber;
             break;
         case "/":
-            if(secondNumber == 0){
+            if(Math.abs(secondNumber) < Number.EPSILON){
                 stringResult = "Can not div 0!"
             }
             else{
